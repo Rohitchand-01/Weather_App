@@ -2,8 +2,8 @@
   margin: 0px;
   padding: 0px;
   width: calc(100% - 6rem);
-  height: calc(100% - 8rem);
-  padding: 4rem 3rem;
+  height: calc(100% - 4rem);
+  padding: 2rem 3rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12,9 +12,38 @@
 }
 
 .main_container {
-  width: 70%;
+  width: 80%;
   height: 100%;
   border-radius: 2rem;
   background-color: #000;
   display: flex;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+}
+
+p {
+  margin: 0px;
+}
+
+h1 {
+  margin: 0px;
+}
+
+h2 {
+  margin: 0px;
+}
+
+h3 {
+  margin: 0px;
+}
+
+h4 {
+  margin: 0px;
+}
+
+h5 {
+  margin: 0px;
+}
+
+h6 {
+  margin: 0px;
 }

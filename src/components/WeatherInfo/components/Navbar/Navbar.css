@@ -1,0 +1,50 @@
+.navbar{
+    padding: 2rem 2rem 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.days{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.day_selected{
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.day_unselected{
+    color: grey;
+}
+
+
+.temp_option{
+    display: flex;
+    gap: 1rem;
+
+}
+
+.temp_1{
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+
+
+.temp_unselected{
+    background-color: black;
+    color: white;
+    width: 2rem;
+    height: 2rem;
+}
+
+.temp_selected{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 2rem;
+    height: 2rem;
+}

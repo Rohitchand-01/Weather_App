@@ -1,0 +1,37 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    padding: 1rem 0px;
+    border-radius: 1rem;
+}
+
+.day {
+    font-weight: 600;
+    font-size: medium;
+}
+
+.max_min {
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    height: fit-content;
+    font-size: small;
+    font-weight: 600;
+}
+
+.min {
+    height: fit-content;
+    color: #acacac;
+    
+}
+
+.max {
+    height: fit-content;
+    color: #000000;
+    
+}

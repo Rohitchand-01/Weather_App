@@ -1,0 +1,56 @@
+.highlight_container {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    flex: 1 0 0;
+    gap: 1.5rem;
+}
+
+.highlight_card_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+    height: 100%;
+}
+
+.highlight_card {
+    border-radius: 0.75rem;
+    padding: 0px 1rem;
+    background-color: white;
+}
+
+.uv{
+    height: 7rem;
+}
+
+.wind{
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    height: fit-content;
+    padding: 1rem 1rem 1rem 0rem;
+    
+}
+
+.time{
+    display: flex;
+    padding: 1rem 1rem 1rem 0rem;    
+}
+.humidity{
+    display: flex;
+    gap: 0.5rem;
+    padding: 1rem 1rem 1rem 0rem;  
+}
+
+.visibility{
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    padding: 1rem 1rem 1rem 0rem;
+}
+
+.air{
+    padding: 1rem 1rem 1rem 0rem;
+}
