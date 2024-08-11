@@ -1,0 +1,20 @@
+#root {
+  margin: 0px;
+  padding: 0px;
+  width: calc(100% - 6rem);
+  height: calc(100% - 8rem);
+  padding: 4rem 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #D6D7DB;
+}
+
+.main_container {
+  width: 70%;
+  height: 100%;
+  border-radius: 2rem;
+  background-color: #000;
+  display: flex;
+}

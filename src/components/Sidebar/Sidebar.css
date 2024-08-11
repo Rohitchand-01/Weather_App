@@ -1,0 +1,103 @@
+.sidebar {
+    width: 20rem;
+    background-color: #fff;
+    padding: 1rem;
+    height: calc(100% - 2rem);
+    border-top-left-radius: inherit;
+    border-bottom-left-radius: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top {
+    padding: 1rem;
+    width: calc(100% - 2rem);
+    height: calc(100% - 2rem);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.input {
+    display: flex;
+    flex: 1 0 0;
+    outline: none;
+    border: none;
+    align-items: center;
+}
+
+.sun{
+    display: flex;
+    height: 9rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.temp{
+    font-size: xxx-large;
+    padding: 0px;
+    height: fit-content;
+}
+
+.day_time{
+    font-size: medium;
+}
+
+
+.seperator {
+    padding: 0.5px;
+    background-color: #cecece;
+}
+
+.bottom {
+    padding: 1rem;
+    width: calc(100% - 2rem);
+    height: calc(100% - 2rem);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.weather{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: fit-content;
+}
+
+.could{
+    height: 1.5rem;
+}
+
+.couldy{
+    font-size: small;
+}
+
+.rain1{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-top: 1rem;
+}
+.rain{
+    height: 2.5rem;
+}
+
+.rainy{
+    font-size: small;
+}
+
+.img {
+    height: 5rem;
+    border-radius: 1rem;
+     
+}
+
