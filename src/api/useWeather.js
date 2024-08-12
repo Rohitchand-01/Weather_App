@@ -7,7 +7,7 @@ const useWeather = () => {
     const getWeather = async (city = "New Delhi", callback) => {
         setWeatherLoading(true);
         try {
-            const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=96b3c39084258ede7c9492bd2afebfb3`)
+            const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${import.meta.env.VITE_OPENWEATHER_API_KEY}`)
            if (![200,201].includes(response?.status || response?.data?.status)) {
             console.log("Error getting weather");
            }
