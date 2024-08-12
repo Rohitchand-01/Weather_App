@@ -5,17 +5,23 @@ import rain from "../../assets/rain.svg"
 import ny from "../../assets/ny.jpg"
 import "./Sidebar.css"
 
-const Sidebar = () => {
+const Sidebar = (props) => {
   return (
     <div className="sidebar">
       <div className="top">
         <div className="search">
             <CiSearch />
-            <input className="input" type="text" placeholder="Search for places..." />
+            <input value={props.search} onChange={(e) => {
+              props.setSearch(e.target.value);
+            }} onKeyUp={(e) => {
+              if (e.key === 'Enter') {
+                props.handleSearch();
+              }
+            }} className="input" type="text" placeholder="Search for places..." />
         </div>
         <img className="sun" src={sun} alt="" />
         <div className="temp">
-            12°C
+            {Math.round(props.temp) - 273}°C
         </div>
         <div>
             <p className="day_time">Monday,  12:30 pm</p>
